@@ -178,10 +178,6 @@ rm -rf $PTERO/temp
 
 # Check if it is already installed #
 verify_installation() {
-if [ -f "$ZING" ]; then
-    print_error "This theme is already installed in your panel, aborting..."
-    exit 1
-  else
     dependencies
     backup
     download_files
