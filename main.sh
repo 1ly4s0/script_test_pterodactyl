@@ -183,7 +183,6 @@ verify_installation() {
     download_files
     production
     bye
-fi
 }
 
 # Panel Production #
